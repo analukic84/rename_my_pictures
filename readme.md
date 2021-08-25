@@ -1,12 +1,4 @@
-Script to rename given filename into specific one.
-
-Requires Python 3.7.
-
-## Installation
-
-1. Clone the repository (going to a terminal and run `git clone git@github.com:analukic84/rename_pictures.git`.
-2. Create a virtual environment for the repository (run `virtualenv --python=python3.7 venv`)
-
+## Script to rename given filename into specific one.
 
 Each item has 7 different pictures in 7 jpg files.
 One item will have one particular item number, for example number 677 - case677
@@ -38,3 +30,11 @@ iterate over this list, it writes new lines into new list (renamed_files_list):
   after 7 times, it increase item start number and continue in the same style
 
 at the end, it saves changes in file_save
+
+
+# Installation
+
+Requires Python 3.7.
+
+1. Clone the repository (going to a terminal and run `git clone git@github.com:analukic84/rename_pictures.git`.
+2. Create a virtual environment for the repository (run `virtualenv --python=python3.7 venv`)
